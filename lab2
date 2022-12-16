@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+
+</body>
+<h1>New HTML5 Input Types Demo</h1>
+<p></p>
+This form demonstrates the new HTML5 input types and the placeholder, required and autofocus attributes.
+<p></p>
+<label>Color:
+	<input type="color" autofocus>
+</label>
+(Hexadecimal code such as # ADD8E6)
+<p></p>
+<form action="/action_page.php">
+	<label for="date">Date:<label>
+	<input type="date" id="date" name="birthday"
+	value="mm/dd/yyyy">(yyyy-mm-dd)
+</form>
+<p></p>
+<form>
+	Email:
+	<input type="email" name="email" placeholder="name@domain.com" required>
+	(name@domain.com)
+</form>
+<p></p>
+<form action="/action_page.php">
+	<label for="quantity">Number:</label>
+	<input type="number" id="number" name="number" min="0" max="5">(Enter a number between 0 and 7)
+</form>
+<p></p>
+<form action="/action_page.php" method="get">
+	<label for="vol">Range:</label>
+	0<input type="range" id="range" name="range" min="0" max="20">20
+</form>
+<p></p>
+<form action="/action_page.php">
+	<label for="gsearch">Search:</label>
+	<input type="search" id="search2" name="search"
+	placeholder="search query">
+</form>
+<p></p>
+<form action="/action_page.php">
+	<label for="appt">Time:</label>
+	<input type="time" id="appt" name="appt">
+	(hh:mm)	
+</form>
+
+<p></p>
+	<input type = "submit" value = "Submit">
+	<input type = "reset" value = "Clear">
+
+</html>
